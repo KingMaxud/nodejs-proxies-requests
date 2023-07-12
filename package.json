@@ -4,7 +4,6 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
     "seed": "ts-node src/prisma/seed.ts"
   },
@@ -17,7 +16,6 @@
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
-    "@types/express": "^4.17.17",
     "@types/node": "^20.4.1",
     "concurrently": "^8.2.0",
     "nodemon": "^3.0.1",
